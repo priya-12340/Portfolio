@@ -14,7 +14,7 @@ A 3D animated developer portfolio built from scratch using vanilla HTML, CSS, an
 HTML5, CSS3 (3D Transforms, Grid, Flexbox), Vanilla JavaScript
 
 ## Live Demo
-[Add your deployed link here]
+[View Live Portfolio](https://portfolio-pi-ashen-s70co9o8a2.vercel.app)
 
 ## Why I built this
 Built this project to strengthen my understanding of CSS 3D transforms and DOM manipulation with vanilla JavaScript — implementing every animation from scratch rather than using a library.
