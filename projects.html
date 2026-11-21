@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects by Priya Sharma: Codemark, an AI code review app, and WanderLust, a full-stack travel listing app." />
+    <title>Projects | Priya Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="logo">Priya</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Hire Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="page-header">
+        <h1>Projects</h1>
+        <p>Two full-stack projects, both deployed. Each one has a live demo and the code on GitHub.</p>
+      </div>
+
+      <section class="projects">
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="images/codemark.png" alt="Codemark review page showing a 6.5 out of 10 score and two critical issues with suggested fixes" loading="lazy" />
+            <h3>Codemark</h3>
+            <p class="problem">Manual code review is slow and inconsistent.</p>
+            <p>
+              An AI-powered review assistant. Paste your code and get a quality score out of 10,
+              issues tagged by severity, and a suggested fix for each one.
+            </p>
+            <p>
+              Includes JWT authentication, protected routes, paginated review history and
+              hash-based caching, so submitting the same code again returns the saved review
+              without another API call.
+            </p>
+            <div class="tags"><span>React</span><span>Express</span><span>Gemini API</span><span>MongoDB</span><span>JWT</span></div>
+            <div class="project-links">
+              <a href="https://codemark-frontend-mu.vercel.app" target="_blank" rel="noopener" class="project-link">Live Demo</a>
+              <a href="https://github.com/priya-12340/codemark-frontend" target="_blank" rel="noopener" class="project-link">Frontend</a>
+              <a href="https://github.com/priya-12340/codemark-backend" target="_blank" rel="noopener" class="project-link">Backend</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/wanderlust.png" alt="WanderLust listings page with category filters and travel stay cards" loading="lazy" />
+            <h3>WanderLust</h3>
+            <p class="problem">Finding and listing places to stay should be simple.</p>
+            <p>
+              Full-stack travel listing app with secure authentication, owner-only listing
+              management, image uploads, map-based locations, search with category filters
+              and star-rated reviews.
+            </p>
+            <div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Mapbox</span></div>
+            <div class="project-links">
+              <a href="https://wanderlust-hx8z.onrender.com" target="_blank" rel="noopener" class="project-link">Live Demo</a>
+              <a href="https://github.com/priya-12340/WanderLust" target="_blank" rel="noopener" class="project-link">GitHub</a>
+            </div>
+          </article>
+
+          <!--
+          <article class="project-card">
+            <h3>Kavach</h3>
+            <p class="problem">Women need a fast way to ask for help in an emergency.</p>
+            <p>Full-stack women's safety app. Recognised at a university-level tech showcase.</p>
+            <div class="tags"><span>React</span><span>Spring Boot</span><span>MySQL</span></div>
+            <div class="project-links">
+              <a href="https://github.com/priya-12340/Kavach" target="_blank" rel="noopener" class="project-link">Frontend</a>
+              <a href="https://github.com/priya-12340/kavach-backend" target="_blank" rel="noopener" class="project-link">Backend</a>
+            </div>
+          </article>
+          -->
+        </div>
+        <p class="section-link">
+          <a href="https://github.com/priya-12340" target="_blank" rel="noopener" class="btn-ghost">More on GitHub</a>
+        </p>
+      </section>
+
+      <section class="cta">
+        <div class="cta-box">
+          <h2>Like what you see?</h2>
+          <p>I'm open to internships, full-time roles and freelance work.</p>
+          <a href="contact.html" class="btn-3d">Get in touch</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Priya Sharma</p>
+      <div class="footer-links">
+        <a href="mailto:priyasharma40819@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/priya-sharma-4a7088303/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/priya-12340" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" download>Resume</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

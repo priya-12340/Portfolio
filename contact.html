@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Priya Sharma about internships, full-time roles or freelance projects." />
+    <title>Contact | Priya Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="logo">Priya</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta" aria-current="page">Hire Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="page-header">
+        <h1>Let's connect</h1>
+        <p>Open to internships, full-time roles, freelance work and interesting conversations.</p>
+      </div>
+
+      <section class="contact">
+        <!-- Replace YOUR_FORM_ID with the ID from your Formspree form (formspree.io) -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>Name
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>I'm reaching out about
+            <select name="topic">
+              <option>Internship or full-time role</option>
+              <option>Freelance project</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message
+            <textarea name="message" required></textarea>
+          </label>
+          <input type="hidden" name="_subject" value="New message from your portfolio" />
+          <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button type="submit" class="btn-3d">Send message</button>
+          <p class="form-note">Prefer email? Write to priyasharma40819@gmail.com.</p>
+        </form>
+
+        <div class="contact-links">
+          <a href="mailto:priyasharma40819@gmail.com" class="btn-3d">Email Me</a>
+          <a href="https://www.linkedin.com/in/priya-sharma-4a7088303/" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
+          <a href="https://github.com/priya-12340" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+          <a href="resume.pdf" class="contact-link" download>Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Priya Sharma</p>
+      <div class="footer-links">
+        <a href="mailto:priyasharma40819@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/priya-sharma-4a7088303/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/priya-12340" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" download>Resume</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
